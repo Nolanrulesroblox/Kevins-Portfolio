@@ -1,0 +1,38 @@
+/*Banner Image*/
+.banner {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url('images/code-background.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+/*Background H1 Color*/
+.container h1 {
+    margin-top: -250px;
+    color: white;
+    font-size: 60px;
+}
+
+/*Background Lead Color*/
+.container .lead {
+    color: red;
+    font-size: 50px;
+}
+
+/*Link Color*/
+.navbar-custom .navbar-nav .nav-link {
+    color: #ffffff;    
+}
+
+/*Navbar Active & Hover Color*/
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: red;
+}
+
+/*Navbar-Brand Color
+.navbar-custom .navbar-brand {
+    color: #ffffff;
+}*/
