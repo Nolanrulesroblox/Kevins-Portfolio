@@ -6,6 +6,9 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    border-bottom: solid black 3px;
+    margin-bottom: 10px;
+    
   }
 
 /*Background H1 Color*/
@@ -27,12 +30,32 @@
 }
 
 /*Navbar Active & Hover Color*/
-.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item.active .nav-link {
+    color: #ffffff;
+}
+
 .navbar-custom .nav-item:hover .nav-link {
     color: red;
 }
 
-/*Navbar-Brand Color
+/*Navbar-Brand Color (Deciding)
 .navbar-custom .navbar-brand {
     color: #ffffff;
 }*/
+
+/*Profile Picture*/
+.profilepicture {
+    border-radius: 50%;
+    height: 175px;
+    width: 210px;
+    border: solid 3px #ffffff;
+    margin-top: -35px;
+    
+    
+}
+
+/*Angled Background */
+.py-5 {
+    clip-path: polygon(0 0, 1600px 0, 1600px 87%, 0 100%);
+    background-color: #000000;
+}
