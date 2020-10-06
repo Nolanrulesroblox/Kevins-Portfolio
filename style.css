@@ -59,3 +59,31 @@
     clip-path: polygon(0 0, 1600px 0, 1600px 87%, 0 100%);
     background-color: #000000;
 }
+
+.flexbox-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .flexprofile {
+    display: flex;
+    margin-left: 20px;
+    
+  }
+  
+  .flextitle {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    margin-top: -120px;
+    color: #ffffff;
+    
+    
+  }
+  
+  .flexaboutme {
+    margin-left: -50px;
+    margin-top: 50px;
+    align-self: center;
+    color: #ffffff
+  }
