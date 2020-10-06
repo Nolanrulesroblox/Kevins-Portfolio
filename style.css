@@ -63,27 +63,15 @@
 .flexbox-container {
     display: flex;
     flex-wrap: wrap;
-  }
-  
-  .flexprofile {
-    display: flex;
-    margin-left: 20px;
     
   }
   
   .flextitle {
-    display: flex;
-    align-items: center;
-    padding-left: 20px;
-    margin-top: -120px;
     color: #ffffff;
-    
-    
-  }
-  
-  .flexaboutme {
-    margin-left: -50px;
-    margin-top: 50px;
+    margin-bottom: 70px;
+    padding-left: 20px;
     align-self: center;
-    color: #ffffff
+    
+    
+    
   }
